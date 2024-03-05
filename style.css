@@ -22,9 +22,16 @@
   box-shadow: none;
 }
 
-header {
-  padding: 10px 5%;
+@media screen and (min-width: 600px) {
+  header {
+    padding: 10px 5%;
+
+    .home {
+      padding: 10px 5%;
+    }
+  }
 }
+
 header .navbar .navbar-brand img {
   width: 200px;
   margin-top: 5px;
@@ -47,7 +54,6 @@ header .navbar .navbar-brand img {
 
 .home {
   display: flex;
-  padding: 10px 5%;
 }
 
 .home .img {
